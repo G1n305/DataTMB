@@ -37,7 +37,7 @@ def divide_columns(excel_file):
     # Tạo một bản sao của dữ liệu gốc
     original_data = data.copy()
 
-    # Lấy dữ liệu từ cột thứ nhất và cột thứ hai
+    # Lấy dữ liệu từ cột thứ nhất và cột thứ hai tuỳ vào cột m up trên dtb
     first_column = data.iloc[:, 3]
     second_column = data.iloc[:, 4]
     third_column = data.iloc[:, 5]
@@ -136,5 +136,5 @@ def divide_columns(excel_file):
     # Trả về dữ liệu gốc
     return original_data
 
-# Sử dụng hàm divide_columns với tên tệp excel của bạn
+# Sử dụng hàm divide_columns với tên tệp excel
 original_data = divide_columns('tiengui.xlsx')
