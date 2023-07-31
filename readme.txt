@@ -4,3 +4,4 @@
 -1 cái rwa up bảng fix&new
 -code giúp t cái graph cho LDR trong chart requirement báo cáo rủi ro là được
 công thức + mô tả trong bảng xmind trong file zip 
+-code voncap1 đang sai dataframe sau khi filter bị rỗng
