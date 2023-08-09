@@ -141,4 +141,4 @@ def divide_columns(excel_file):
     return original_data
 
 # Sử dụng hàm divide_columns với tên tệp excel của bạn
-original_data = divide_columns('tiengui.xlsx')
+original_data = divide_columns('')
